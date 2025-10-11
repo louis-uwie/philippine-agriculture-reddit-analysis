@@ -5,4 +5,4 @@ Binwag - PhilippineRedditAgricultureAnalysis/doc2vec_bow.pkl
 /Activity-LSTM-LanguageModelling/torch-env
 PromptingLLMs/belebele_results_gemma3_1b.jsonl
 PromptingLLMs/belebele_results_gemma3_1b.jsonl
-/.llamavenv
+RAG/.env
