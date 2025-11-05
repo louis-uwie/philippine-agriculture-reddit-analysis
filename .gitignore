@@ -9,3 +9,4 @@ RAG/.env
 /.llamavenv
 AutoMap64.zip
 /AutoMap64
+/PromptingLLMs/.llamavenv
