@@ -62,10 +62,6 @@ While it is common knowledge that agriculture is often \textbf{unappreciated} an
 
 
 \section{Methodology}
-\textbf{\textit{Data Description \& Collection}}
-
-The datasets ( \textit{See Table \ref{tab:redditdatasample} \& \ref{tab:newsplatformsample}} ) is extracted from various online news platforms and Reddit discussions. 
-Data collection will primarily utilize Reddit's PRAW (API) for datascraping, and for online platforms will use python scripts. The raw reddit dataset contains approximately 13,000 rows of data.
 
 \begin{table}[h]
 \centering
@@ -102,16 +98,52 @@ Data collection will primarily utilize Reddit's PRAW (API) for datascraping, and
 \label{tab:news_raw_data}
 \end{table}
 
-\vspace{1em}
+\vspace{4em}
 
-\textbf{\textit{Pipeline \& Results}}
+\textbf{\textit{Pipeline}}
 
 \begin{enumerate}
-    \item 
+    \item Data Preprocessing
+    \item Exploratory Data Analysis (EDA)
+    \item Natural Language Processing (NLP)
+    \begin{enumerate}
+        \item Topic Modeling
+        \item Sentiment Analysis
+    \end{enumerate}
 \end{enumerate}
+
+\vspace{1em}
+
+\textbf{\textit{Data Collection \& Preprocessing}}
+
+\textbf{Reddit data} is collected from \texttt{r/Philippines}, while agriculture-related news articles are taken from \textbf{Rappler}. 
+Metadata that are gathered from both sources are summarized in their respective tables ( \textit{See Table \ref{tab:redditdatasample} \& \ref{tab:newsplatformsample}} )
+
+
+
+\vspace{1em}
+
+\textbf{\textit{Exploratory Data Analysis}}
+
+At this stage, basic exploratory data analysis (EDA) methods are going to provide us a deeper understanding of what the data has to offer.
+(i) Basic Overview and Structure, (ii) Word Frequency Analysis, (iii) Engagement and Metadata Trends, (iv) Common Keywords, (v) Text Comparison \textit{(Reddit vs News, how do they write text?)}
+
+\vspace{1em}
+
+\textbf{\textit{Natural Language Processing}}
+
+\vspace{1em}
+
+\textbf{\textit{Natural Language Processing}}
+
+\indent\textbf{\textit{a. Topic Modelling}} \\
+\indent\textbf{\textit{b. Sentiment Analysis}}
+
 
 
 \section{Results \& Discussion}
+
+
 
 \section{Conclusion}
 
