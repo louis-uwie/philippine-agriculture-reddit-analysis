@@ -51,7 +51,6 @@ component, formatting, style, styling, insert
 The main intuition in this study is to provide context into what are the common topics and sentiments towards the topic \textbf{agriculture} in the Philippines.
 While it is common knowledge that agriculture is often \textbf{unappreciated} and that it is \textbf{unsupported}, this study provides a textual analysis on the conversations that occur in online platforms.
 
-
 \subsection{Research Questions}
     \begin{enumerate}
         \item What are the dominant public sentiments toward agriculture in the Philippines across Reddit discussions and news articles?
@@ -60,6 +59,11 @@ While it is common knowledge that agriculture is often \textbf{unappreciated} an
         \item Is it possible to identify the specific needs or concerns of farmers based on these online discussions?
     \end{enumerate}
 
+\subsection{Scope \& Limitations}
+    \begin{enumerate}
+        \item Considering the topic utilizes a discussion-based dataset, the study will not take into account the network structure of the data.
+        \item The analysis is limited to text content and does not incorporate multimedia elements such as images or videos, which may also influence discussions or public perception.
+    \end{enumerate}
 
 \section{Methodology}
 
@@ -86,15 +90,12 @@ While it is common knowledge that agriculture is often \textbf{unappreciated} an
 \caption{Online News Platform Data Sample \label{tab:newsplatformsample}}
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    \textbf{article\_title} & Government Pushes for Modernized Irrigation Systems to Boost Rice Yields \\ \hline
-    \textbf{article\_url} & https://www.inquirer.net/article/... \\ \hline
-    \textbf{article\_body} & The Department of Agriculture announced new initiatives aimed at improving irrigation efficiency and supporting local farmers struggling with the effects of climate change. \\ \hline
+    \textbf{title} & Arms to farms: Maguindanao del... \\ \hline
+    \textbf{link} & https://www.rappler.com/philippines/... \\ \hline
+    \textbf{date\_published} & 2025-10-24 09:30:00 \\ \hline
     \textbf{author} & Maria Dela Cruz \\ \hline
-    \textbf{publisher} & Philippine Daily Inquirer \\ \hline
-    \textbf{publish\_date} & 2025-10-24 09:30:00 \\ \hline
-    \textbf{article\_category} & Agriculture / Economy \\ \hline
-    \textbf{article\_tags} & rice production, irrigation, government policy, farmers \\ \hline
-    \end{tabular}
+    \textbf{text} & COTABATO CITY, Philippines —Maguindanao del... \\ \hline
+    \end{tabular} 
 \label{tab:news_raw_data}
 \end{table}
 
