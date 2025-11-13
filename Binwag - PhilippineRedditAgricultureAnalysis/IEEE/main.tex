@@ -49,7 +49,14 @@ component, formatting, style, styling, insert
 
 \section{Introduction}
 The main intuition in this study is to provide context into what are the common topics and sentiments towards the topic \textbf{agriculture} in the Philippines.
-While it is common knowledge that agriculture is often \textbf{unappreciated} and that it is \textbf{unsupported}, this study provides a textual analysis on the conversations that occur in online platforms. \cite{a1}
+While it is common knowledge that agriculture is often \textbf{unappreciated} and that it is \textbf{unsupported}, this study provides a textual analysis on the conversations that occur in online platforms. 
+
+\vspace{1em}
+
+The Department of Agriculture (DA) recognizes the fact that the agricultural situation in the Philippines is struggling \cite{a1}. These struggles are stem from various challenges that the sector is facing,
+such as the decreasing number of farmers, harvestable area, and the increasing cost of production \cite{a2}. With the continuous rise of population, the demand for food is also increasing. However, the agricultural sector is not able to keep up with this 
+demand due to various challenges such as lacking of government support, climate change, and limited access to new farming technology \cite{a2}.
+
 
 \subsection{Research Questions}
     \begin{enumerate}
@@ -99,19 +106,19 @@ While it is common knowledge that agriculture is often \textbf{unappreciated} an
 \label{tab:news_raw_data}
 \end{table}
 
-\vspace{4em}
+% \vspace{4em}
 
-\textbf{\textit{Pipeline}}
+% \textbf{\textit{Pipeline}}
 
-\begin{enumerate}
-    \item Data Preprocessing
-    \item Exploratory Data Analysis (EDA)
-    \item Natural Language Processing (NLP)
-    \begin{enumerate}
-        \item Topic Modeling
-        \item Sentiment Analysis
-    \end{enumerate}
-\end{enumerate}
+% \begin{enumerate}
+%     \item Data Preprocessing
+%     \item Exploratory Data Analysis (EDA)
+%     \item Natural Language Processing (NLP)
+%     \begin{enumerate}
+%         \item Topic Modeling
+%         \item Sentiment Analysis
+%     \end{enumerate}
+% \end{enumerate}
 
 \vspace{1em}
 
@@ -119,8 +126,7 @@ While it is common knowledge that agriculture is often \textbf{unappreciated} an
 
 \textbf{Reddit data} is collected from \texttt{r/Philippines}, while agriculture-related news articles are taken from \textbf{Rappler}. 
 Metadata that are gathered from both sources are summarized in their respective tables ( \textit{See Table \ref{tab:redditdatasample} \& \ref{tab:newsplatformsample}} )
-
-
+The data is cleaned by (i) removing null values, (ii) removing special characters, (iii) normalizing text, and (iv) identifying and removing stopwords.
 
 \vspace{1em}
 
@@ -153,7 +159,8 @@ At this stage, basic exploratory data analysis (EDA) methods are going to provid
 \section*{References}
 
 \begin{thebibliography}{00}
-\bibitem{a1} Department of Agriculture, ``Facing the Big Challenges in Philippine Agriculture,'' 2022. [Online]. Available: https://www.da.gov.ph/facing-the-big-challenges-in-philippine-agriculture/. [Accessed: 13- Nov- 2025].
+\bibitem{a1} Department of Agriculture, ``Facing the Big Challenges in Philippine Agriculture,'' 2022. [Online]. Available: https://www.da.gov.ph/facing-the-big-challenges-in-philippine-agriculture/. [Accessed: 9- Nov- 2025].
+\bibitem{a2} GMA Integrated News, ``Bakit Hindi Rice Self-Sufficient Ang Pilipinas? | Need to Know,'' 2021. [Online]. Available: https://www.youtube.com/watch?v=nh3vLr9DG1g. [Accessed: 20- Oct- 2025].
 \end{thebibliography}
 \vspace{12pt}
 \color{red}
