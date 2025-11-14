@@ -66,6 +66,12 @@ Considering the challenges that the agricultural sector is facing, it is importa
 This study aims to analyze the public sentiments and common topics associated with agriculture in the Philippines by utilizing text data from Reddit discussions and rappler news articles. 
 By comparing the sentiments and topics from these two, we will be able to identify the differences and similarities in the public discourse on agriculture in the Philippines.
 
+\vspace{1em}
+
+The findings of this study can provide insights into the public perception of agriculture in the Philippines. Albeit the dataset is rather sparse or limited , it can still provide significant
+insights into the public discourse on agriculture in the Philippines. Comparing Reddit discussions and Rappler articles, it is possible to identify the gaps and needs of agricultural sector in the country 
+by understanding if the news articles are addressing the concerns of the public, commonly expressed in the widely open Reddit platform.
+
 
 \subsection{Research Questions}
     \begin{enumerate}
@@ -77,9 +83,10 @@ By comparing the sentiments and topics from these two, we will be able to identi
 
 \subsection{Scope \& Limitations}
     \begin{enumerate}
-        \item Considering the topic utilizes a discussion-based dataset, the study will not take into account the network structure of the data.
+        \item Considering the topic utilizes a Reddit discussion dataset, the study will not take into account the network structure and geological distribution of the data. Hence, it is possible that some sentiments or topics may come from foreigners or non-farmers.
         \item The analysis is limited to text content and does not incorporate multimedia elements such as images or videos, which may also influence discussions or public perception.
         \item Due to difficulties in data collection, the study will focus on Reddit and Rappler as the primary sources of data, which may not fully represent the entire spectrum of public opinion on Philippine agriculture.
+        \item The study will focus on general sentiments and topics, without delving into specific sub-sectors of agriculture (e.g., rice farming, livestock, fisheries).
         \item The data collected is limited to: for Reddit, 2016 to 2025; for Rappler, 2023 to 2025.
     \end{enumerate}
 
@@ -133,7 +140,7 @@ By comparing the sentiments and topics from these two, we will be able to identi
 
 \vspace{1em}
 
-\subsection{Data Collection \& Preprossing}
+\subsection{Data Collection \& Preprocessing}
 
 \textbf{Reddit data} is collected from \texttt{r/Philippines}, while agriculture-related news articles are taken from \textbf{Rappler}. 
 Metadata that are gathered from both sources are summarized in their respective tables ( \textit{See Table \ref{tab:redditdatasample} \& \ref{tab:newsplatformsample}} )
@@ -144,7 +151,12 @@ The data is cleaned by (i) removing null values, (ii) removing special character
 \subsection{Exploratory Data Analysis (EDA)}
 
 At this stage, basic exploratory data analysis (EDA) methods are going to provide us a deeper understanding of what the data has to offer.
-(i) Basic Overview and Structure, (ii) Word Frequency Analysis, (iii) Post Frequency over time, (iv) Common Keywords, (v) Text Comparison \textit{(Reddit vs News, how do they write text?)}
+
+\subsubsection{Basic Overview and Structure}
+\subsubsection{Word Frequency Analysis}
+\subsubsection{Post Frequency over time}
+\subsubsection{Common Keywords and Text Comparison}
+
 
 \vspace{1em}
 
@@ -166,10 +178,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \section{Possible Future Works}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\section*{References}
-
-
 
 \sloppy
 
