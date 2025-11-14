@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  14 NOV 2025 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  14 NOV 2025 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,32 +271,35 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 137.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 138.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 []\OT1/ptm/m/n/8 GMA News, ``Bakit Hindi Rice Self-Sufficient Ang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 \OT1/ptm/m/n/8 Pilip-inas? | Need to Know,'' 2021. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 \OT1/ptm/m/n/8 https://www.youtube.com/watch?v=nh3vLr9DG1g. [Ac-cessed: 20-
  []
 
@@ -311,24 +314,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
-
-] (./main.aux)
+[2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4207 strings out of 474116
- 66068 string characters out of 5743683
- 1946187 words of memory out of 5000000
+ 4206 strings out of 474116
+ 66061 string characters out of 5743683
+ 1945187 words of memory out of 5000000
  26525 multiletter control sequences out of 15000+600000
- 596730 words of font info for 106 fonts, out of 8000000 for 9000
+ 595634 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,443b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,581b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 73360 bytes).
+Output written on main.pdf (2 pages, 72882 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
