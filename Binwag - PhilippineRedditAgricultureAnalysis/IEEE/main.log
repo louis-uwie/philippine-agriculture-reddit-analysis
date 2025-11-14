@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  14 NOV 2025 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  14 NOV 2025 18:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,20 +304,32 @@ Underfull \vbox (badness 1831) has occurred while \output is active []
 
 ]
 
+<figures/reddit_wordcloudfrequency.png, id=10, 570.933pt x 311.4837pt>
+File: figures/reddit_wordcloudfrequency.png Graphic file (type png)
+<use figures/reddit_wordcloudfrequency.png>
+Package pdftex.def Info: figures/reddit_wordcloudfrequency.png  used on input line 202.
+(pdftex.def)             Requested size: 252.0pt x 137.48576pt.
+<figures/rappler_wordcloudfrequency.png, id=12, 570.933pt x 311.4837pt>
+File: figures/rappler_wordcloudfrequency.png Graphic file (type png)
+<use figures/rappler_wordcloudfrequency.png>
+Package pdftex.def Info: figures/rappler_wordcloudfrequency.png  used on input line 209.
+(pdftex.def)             Requested size: 252.0pt x 137.48576pt.
 
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+[2 <./figures/reddit_wordcloudfrequency.png> <./figures/rappler_wordcloudfrequency.png>]
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 []\OT1/ptm/m/n/8 GMA News, ``Bakit Hindi Rice Self-Sufficient Ang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 \OT1/ptm/m/n/8 Pilip-inas? | Need to Know,'' 2021. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 \OT1/ptm/m/n/8 https://www.youtube.com/watch?v=nh3vLr9DG1g. [Ac-cessed: 20-
  []
 
@@ -334,29 +346,25 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[3
-
-] (./main.aux)
+[3] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4213 strings out of 473200
- 65476 string characters out of 5720279
- 480865 words of memory out of 5000000
- 27424 multiletter control sequences out of 15000+600000
+ 4231 strings out of 473200
+ 66198 string characters out of 5720279
+ 477909 words of memory out of 5000000
+ 27442 multiletter control sequences out of 15000+600000
  596402 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,558b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 77312 bytes).
+Output written on main.pdf (3 pages, 536713 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

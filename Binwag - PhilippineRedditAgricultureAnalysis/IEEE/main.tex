@@ -163,7 +163,57 @@ At this stage, basic exploratory data analysis (EDA) methods are implemented to 
 The Reddit dataset contains 12{,}730 entries with six columns, including post titles, URLs, comments, timestamps, and a combined \texttt{post\_full} field. Most posts include comments, while only a small subset contain extended post bodies.  
 The Rappler dataset consists of 121 news articles with five complete fields (\texttt{title}, \texttt{link}, \texttt{date\_published}, \texttt{text}, and \texttt{cleaned\_text}), all of which are non-null and uniformly structured.
 
+% \subsubsection{Word Frequency Analysis}
+
+% Word frequency analysis is implemented through analysing the dataset for word frequency through mathplotlib's WordCloud. The results are evident as Reddit and Rappler word cloud consists of similarities.
+% Aside from the fact that they both contain topics of agriculture, the Reddit word cloud (figure \ref{fig:rappler_wordcloud}) contains names of politicians, and phrases such as "lalala pa" (\textit{going to get worse}),
+% "sadly undervalued", or "brgy clearance", which can be inferred with negative connotations.
+
+% While the Rappler word cloud emphasizes rice as one of the more prominent issues. This is consistent with the DA's acknowledgement of the issue that rice production is decreasing due to a lot of factors.
+% Furthermore, it is evident that agricultural crops and livestock are continously fighting for prices, which can be inferred from frequent mentions of "per kilo", "rice price", "import", and other financial-related terms, which is, unfortunately, consistent with common knowledge regarding the agricultural sector.
+
+% \begin{figure}[htbp]
+%     \centering
+%     \includegraphics[width=\linewidth]{figures/reddit_wordcloudfrequency.png}
+%     \caption{Word frequency visualization for the Reddit agriculture corpus.}
+%     \label{fig:reddit_wordcloud}
+% \end{figure}
+
+% \begin{figure}[htbp]
+%     \centering
+%     \includegraphics[width=\linewidth]{figures/rappler_wordcloudfrequency.png}
+%     \caption{Word frequency visualization for the Rappler agriculture corpus.}
+%     \label{fig:rappler_wordcloud}
+% \end{figure}
+
 \subsubsection{Word Frequency Analysis}
+
+Word frequency analysis was performed using matplotlib's WordCloud to visualize the most prominent terms in each corpus. 
+Both the Reddit and Rappler word clouds exhibit similarities, as both prominently feature agriculture-related vocabulary. 
+However, the Reddit word cloud (Fig.~\ref{fig:reddit_wordcloud}) also contains names of politicians and colloquial expressions such as ``lalala pa'' 
+(\textit{going to get worse}), ``sadly undervalued,'' and ``brgy clearance,'' which suggest negative sentiment or frustration commonly expressed in online discussions.
+
+In contrast, the Rappler word cloud (Fig.~\ref{fig:rappler_wordcloud}) places stronger emphasis on rice-related issues. 
+This aligns with reports from the Department of Agriculture acknowledging declining rice production due to several factors. 
+Frequent mentions of terms such as ``per kilo,'' ``rice price,'' and ``import'' further highlight recurring concerns over agricultural commodity pricing—consistent with well-known challenges in the Philippine agricultural sector.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{figures/reddit_wordcloudfrequency.png}
+    \caption{Word frequency visualization for the Reddit agriculture corpus.}
+    \label{fig:reddit_wordcloud}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{figures/rappler_wordcloudfrequency.png}
+    \caption{Word frequency visualization for the Rappler agriculture corpus.}
+    \label{fig:rappler_wordcloud}
+\end{figure}
+
+Additionally, it is noted that the top 20 most frequent Reddit terms include \textit{agriculture}, \textit{rice}, \textit{agricultural}, \textit{philippines}, and \textit{profession}.
+For Rappler, the most frequent terms include \textit{rice}, \textit{agriculture}, \textit{food}, and \textit{farmers}, reflecting coverage focused on production, pricing, and food security.
+
 
 
 
