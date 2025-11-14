@@ -142,21 +142,31 @@ by understanding if the news articles are addressing the concerns of the public,
 
 \subsection{Data Collection \& Preprocessing}
 
-\textbf{Reddit data} is collected from \texttt{r/Philippines}, while agriculture-related news articles are taken from \textbf{Rappler}. 
-Metadata that are gathered from both sources are summarized in their respective tables ( \textit{See Table \ref{tab:redditdatasample} \& \ref{tab:newsplatformsample}} )
-The data is cleaned by (i) removing null values, (ii) removing special characters, (iii) normalizing text, and (iv) identifying and removing stopwords.
+\textbf{Reddit data} were collected from \texttt{r/Philippines}, while agriculture-related news articles were obtained from \textbf{Rappler}. 
+The metadata gathered from both sources are summarized in their respective tables (\textit{see Table \ref{tab:redditdatasample} and Table \ref{tab:newsplatformsample}}). 
+Data cleaning procedures included: (i) removing null or missing values, (ii) removing special characters, (iii) normalizing text, and (iv) identifying and removing stopwords.
+
+For Reddit, the final cleaned dataset includes a new column \texttt{post\_full}, formed by concatenating \texttt{post\_title} and \texttt{post\_body}. 
+Only the original posts were analyzed, as these contain the primary thematic content and clearly express the core issues being discussed, 
+whereas comment sections introduce high levels of noise and irrelevant conversational chatter.
+
+For Rappler, the cleaned dataset includes a new column \texttt{cleaned\_text}, consisting of the concatenated and normalized article title and full article body.
 
 \vspace{1em}
 
 \subsection{Exploratory Data Analysis (EDA)}
 
-At this stage, basic exploratory data analysis (EDA) methods are going to provide us a deeper understanding of what the data has to offer.
+At this stage, basic exploratory data analysis (EDA) methods are implemented to provide a deeper understanding of what the datasets have.
 
 \subsubsection{Basic Overview and Structure}
 
-Data preprocessing led with a final count of 12,729 rows of data from Reddit, while 120 rows of articles from Rappler.
+The Reddit dataset contains 12{,}730 entries with six columns, including post titles, URLs, comments, timestamps, and a combined \texttt{post\_full} field. Most posts include comments, while only a small subset contain extended post bodies.  
+The Rappler dataset consists of 121 news articles with five complete fields (\texttt{title}, \texttt{link}, \texttt{date\_published}, \texttt{text}, and \texttt{cleaned\_text}), all of which are non-null and uniformly structured.
 
 \subsubsection{Word Frequency Analysis}
+
+
+
 \subsubsection{Post Frequency over time}
 \subsubsection{Common Keywords and Text Comparison}
 
