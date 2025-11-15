@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  15 NOV 2025 08:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  15 NOV 2025 08:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -255,4 +255,213 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
 -- Lines per column: 56 (exact).
-(/usr/local/texlive/2024/texmf-dist/t
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen175
+\scratchbox=\box56
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen176
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Underfull \hbox (badness 1867) in paragraph at lines 90--91
+[]\OT1/ptm/m/n/10 Considering the topic uti-lizes a Red-dit dis-cus-sion
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 147.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
+<figures/reddit_wordcloudfrequency.png, id=10, 570.933pt x 311.4837pt>
+File: figures/reddit_wordcloudfrequency.png Graphic file (type png)
+<use figures/reddit_wordcloudfrequency.png>
+Package pdftex.def Info: figures/reddit_wordcloudfrequency.png  used on input line 204.
+(pdftex.def)             Requested size: 252.0pt x 137.48576pt.
+<figures/rappler_wordcloudfrequency.png, id=12, 570.933pt x 311.4837pt>
+File: figures/rappler_wordcloudfrequency.png Graphic file (type png)
+<use figures/rappler_wordcloudfrequency.png>
+Package pdftex.def Info: figures/rappler_wordcloudfrequency.png  used on input line 211.
+(pdftex.def)             Requested size: 252.0pt x 137.48576pt.
+ [2 <./figures/reddit_wordcloudfrequency.png> <./figures/rappler_wordcloudfrequency.png>]
+<figures/reddit_postfrequency.png, id=19, 1003.8303pt x 354.123pt>
+File: figures/reddit_postfrequency.png Graphic file (type png)
+<use figures/reddit_postfrequency.png>
+Package pdftex.def Info: figures/reddit_postfrequency.png  used on input line 231.
+(pdftex.def)             Requested size: 252.0pt x 88.89796pt.
+<figures/rappler_postfrequency.png, id=20, 1003.8303pt x 354.123pt>
+File: figures/rappler_postfrequency.png Graphic file (type png)
+<use figures/rappler_postfrequency.png>
+Package pdftex.def Info: figures/rappler_postfrequency.png  used on input line 238.
+(pdftex.def)             Requested size: 252.0pt x 88.89796pt.
+<figures/reddit_wordcloudBoW.png, id=21, 793.5246pt x 403.9893pt>
+File: figures/reddit_wordcloudBoW.png Graphic file (type png)
+<use figures/reddit_wordcloudBoW.png>
+Package pdftex.def Info: figures/reddit_wordcloudBoW.png  used on input line 280.
+(pdftex.def)             Requested size: 252.0pt x 128.29291pt.
+<figures/rappler_wordcloudBoW.png, id=22, 793.5246pt x 403.9893pt>
+File: figures/rappler_wordcloudBoW.png Graphic file (type png)
+<use figures/rappler_wordcloudBoW.png>
+Package pdftex.def Info: figures/rappler_wordcloudBoW.png  used on input line 287.
+(pdftex.def)             Requested size: 252.0pt x 128.29291pt.
+ [3 <./figures/reddit_postfrequency.png> <./figures/rappler_postfrequency.png> <./figures/reddit_wordcloudBoW.png> <./figures/rappler_wordcloudBoW.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]\OT1/ptm/m/n/8 hectare, fi-nan-cial, liv-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]\OT1/ptm/m/n/8 Farming op-er-a-tions, liveli-hood
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 312--312
+[]\OT1/ptm/m/n/8 Trade reg-u-la-tion, cus-toms pro-
+ []
+
+<figures/reddit_topic_distribution.png, id=30, 578.16pt x 361.35pt>
+File: figures/reddit_topic_distribution.png Graphic file (type png)
+<use figures/reddit_topic_distribution.png>
+Package pdftex.def Info: figures/reddit_topic_distribution.png  used on input line 320.
+(pdftex.def)             Requested size: 252.0pt x 157.50026pt.
+
+Underfull \hbox (badness 1888) in paragraph at lines 333--333
+[]\OT1/ptm/m/n/8 price, rice, prices, sup-ply,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[]\OT1/ptm/m/n/8 agriculture, land, re-form,
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 336--336
+[]\OT1/ptm/m/n/8 agriculture, ir-ri-ga-tion, pro-
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 336--336
+[]\OT1/ptm/m/n/8 Government pro-grams, ir-ri-ga-tion
+ []
+
+<figures/rappler_topic_distribution.png, id=31, 578.16pt x 361.35pt>
+File: figures/rappler_topic_distribution.png Graphic file (type png)
+<use figures/rappler_topic_distribution.png>
+Package pdftex.def Info: figures/rappler_topic_distribution.png  used on input line 344.
+(pdftex.def)             Requested size: 252.0pt x 157.50026pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--359
+ \OT1/ptm/m/it/10 3) Sen-ti-ment Anal-y-sis: [][] \OT1/ptm/m/n/10 Sen-ti-ment anal-y-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--359
+\OT1/ptm/m/n/10 was con-ducted to ex-am-ine the un-der-ly-ing emo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--359
+\OT1/ptm/m/n/10 tional po-lar-ity present in both datasets. The
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 353--359
+\OT1/pcr/m/n/10 tabularisai/multilingual-sentiment-analysis
+ []
+
+<figures/reddit_sentiment_per_topic.png, id=32, 463.2507pt x 338.2236pt>
+File: figures/reddit_sentiment_per_topic.png Graphic file (type png)
+<use figures/reddit_sentiment_per_topic.png>
+Package pdftex.def Info: figures/reddit_sentiment_per_topic.png  used on input line 397.
+(pdftex.def)             Requested size: 252.0pt x 183.99017pt.
+<figures/rappler_sentiment_per_topic.png, id=33, 463.2507pt x 338.2236pt>
+File: figures/rappler_sentiment_per_topic.png Graphic file (type png)
+<use figures/rappler_sentiment_per_topic.png>
+Package pdftex.def Info: figures/rappler_sentiment_per_topic.png  used on input line 404.
+(pdftex.def)             Requested size: 252.0pt x 183.99017pt.
+[4 <./figures/reddit_topic_distribution.png> <./figures/rappler_topic_distribution.png>] [5 <./figures/reddit_sentiment_per_topic.png> <./figures/rappler_sentiment_per_topic.png>]
+Underfull \hbox (badness 7308) in paragraph at lines 502--503
+[]\OT1/ptm/m/n/8 DA Press Of-fice, ``Fac-ing the Big Chal-lenges in Philip-pine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+\OT1/ptm/m/n/8 Agri-cul-ture,'' 2022. [On-line]. Avail-able: $https : / / www . da . gov . ph /
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 502--503
+\OT1/ptm/m/n/8 facing-[]the-[]big-[]challenges-[]in-[]philippine-[]agriculture/$. [Ac-cessed: Nov.
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 511--512
+\OT1/ptm/m/n/8 sentiment-analysis (Re-vi-sion 69afb83)," 2025. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+\OT1/ptm/m/n/8 https://huggingface.co/tabularisai/multilingual-sentiment-analysis. doi:
+ []
+
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[6
+
+] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 4376 strings out of 474116
+ 70495 string characters out of 5743683
+ 1951187 words of memory out of 5000000
+ 26691 multiletter control sequences out of 15000+600000
+ 596141 words of font info for 106 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,11n,65p,458b,342s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 1578370 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
