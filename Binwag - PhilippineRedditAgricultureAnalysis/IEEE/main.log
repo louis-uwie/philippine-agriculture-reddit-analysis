@@ -1,34 +1,34 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  15 NOV 2025 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  15 NOV 2025 08:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"f:/_GitHub/CSCI161-SocialComputing/Binwag - PhilippineRedditAgricultureAnalysis/IEEE/main"
-(f:/_GitHub/CSCI161-SocialComputing/Binwag - PhilippineRedditAgricultureAnalysis/IEEE/main.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(c:/texlive/2024/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+**"/Users/uwie/Documents/_Github/CSCI161-SocialComputing/Binwag - PhilippineRedditAgricultureAnalysis/IEEE/main.tex"
+(/Users/uwie/Documents/_Github/CSCI161-SocialComputing/Binwag - PhilippineRedditAgricultureAnalysis/IEEE/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2024/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
-\@IEEEtrantmpdimenA=\dimen141
-\@IEEEtrantmpdimenB=\dimen142
-\@IEEEtrantmpdimenC=\dimen143
-\@IEEEtrantmpcountA=\count196
-\@IEEEtrantmpcountB=\count197
-\@IEEEtrantmpcountC=\count198
+\@IEEEtrantmpdimenA=\dimen140
+\@IEEEtrantmpdimenB=\dimen141
+\@IEEEtrantmpdimenC=\dimen142
+\@IEEEtrantmpcountA=\count188
+\@IEEEtrantmpcountB=\count189
+\@IEEEtrantmpcountC=\count190
 \@IEEEtrantmptoksA=\toks17
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
-\@IEEEnormalsizeunitybaselineskip=\dimen144
+\@IEEEnormalsizeunitybaselineskip=\dimen143
 -- This is a 10 point document.
-\CLASSINFOnormalsizebaselineskip=\dimen145
-\CLASSINFOnormalsizeunitybaselineskip=\dimen146
-\IEEEnormaljot=\dimen147
+\CLASSINFOnormalsizebaselineskip=\dimen144
+\CLASSINFOnormalsizeunitybaselineskip=\dimen145
+\IEEEnormaljot=\dimen146
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
@@ -69,173 +69,173 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-\IEEEquantizedlength=\dimen148
-\IEEEquantizedlengthdiff=\dimen149
-\IEEEquantizedtextheightdiff=\dimen150
-\IEEEilabelindentA=\dimen151
-\IEEEilabelindentB=\dimen152
-\IEEEilabelindent=\dimen153
-\IEEEelabelindent=\dimen154
-\IEEEdlabelindent=\dimen155
-\IEEElabelindent=\dimen156
-\IEEEiednormlabelsep=\dimen157
-\IEEEiedmathlabelsep=\dimen158
-\IEEEiedtopsep=\skip49
-\c@section=\count199
-\c@subsection=\count266
-\c@subsubsection=\count267
-\c@paragraph=\count268
-\c@IEEEsubequation=\count269
-\abovecaptionskip=\skip50
-\belowcaptionskip=\skip51
-\c@figure=\count270
-\c@table=\count271
-\@IEEEeqnnumcols=\count272
-\@IEEEeqncolcnt=\count273
-\@IEEEsubeqnnumrollback=\count274
-\@IEEEquantizeheightA=\dimen159
-\@IEEEquantizeheightB=\dimen160
-\@IEEEquantizeheightC=\dimen161
-\@IEEEquantizeprevdepth=\dimen162
-\@IEEEquantizemultiple=\count275
-\@IEEEquantizeboxA=\box52
-\@IEEEtmpitemindent=\dimen163
-\IEEEPARstartletwidth=\dimen164
-\c@IEEEbiography=\count276
-\@IEEEtranrubishbin=\box53
+\IEEEquantizedlength=\dimen147
+\IEEEquantizedlengthdiff=\dimen148
+\IEEEquantizedtextheightdiff=\dimen149
+\IEEEilabelindentA=\dimen150
+\IEEEilabelindentB=\dimen151
+\IEEEilabelindent=\dimen152
+\IEEEelabelindent=\dimen153
+\IEEEdlabelindent=\dimen154
+\IEEElabelindent=\dimen155
+\IEEEiednormlabelsep=\dimen156
+\IEEEiedmathlabelsep=\dimen157
+\IEEEiedtopsep=\skip48
+\c@section=\count191
+\c@subsection=\count192
+\c@subsubsection=\count193
+\c@paragraph=\count194
+\c@IEEEsubequation=\count195
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@figure=\count196
+\c@table=\count197
+\@IEEEeqnnumcols=\count198
+\@IEEEeqncolcnt=\count199
+\@IEEEsubeqnnumrollback=\count266
+\@IEEEquantizeheightA=\dimen158
+\@IEEEquantizeheightB=\dimen159
+\@IEEEquantizeheightC=\dimen160
+\@IEEEquantizeprevdepth=\dimen161
+\@IEEEquantizemultiple=\count267
+\@IEEEquantizeboxA=\box51
+\@IEEEtmpitemindent=\dimen162
+\IEEEPARstartletwidth=\dimen163
+\c@IEEEbiography=\count268
+\@IEEEtranrubishbin=\box52
 )
 ** ATTENTION: Overriding command lockouts (line 2).
-(c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip52
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen165
-)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\ex@=\dimen164
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen166
-) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen165
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count277
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count278
-\leftroot@=\count279
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count280
-\DOTSCASE@=\count281
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen167
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count282
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count283
-\dotsspace@=\muskip17
-\c@parentequation=\count284
-\dspbrk@lvl=\count285
+\inf@bad=\count269
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count270
+\leftroot@=\count271
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count272
+\DOTSCASE@=\count273
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count274
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip16
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
 \tag@help=\toks19
-\row@=\count286
-\column@=\count287
-\maxfields@=\count288
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
 \andhelp@=\toks20
-\eqnshift@=\dimen168
-\alignsep@=\dimen169
-\tagshift@=\dimen170
-\tagwidth@=\dimen171
-\totwidth@=\dimen172
-\lineht@=\dimen173
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
 \@envbody=\toks21
-\multlinegap=\skip53
-\multlinetaggap=\skip54
+\multlinegap=\skip52
+\multlinetaggap=\skip53
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-\c@ALC@unique=\count289
-\c@ALC@line=\count290
-\c@ALC@rem=\count291
-\c@ALC@depth=\count292
-\ALC@tlm=\skip55
-\algorithmicindent=\skip56
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+\c@ALC@unique=\count281
+\c@ALC@line=\count282
+\c@ALC@rem=\count283
+\c@ALC@depth=\count284
+\ALC@tlm=\skip54
+\algorithmicindent=\skip55
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
-) (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box56
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box55
 ) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -255,236 +255,4 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
 -- Lines per column: 56 (exact).
-(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen176
-\scratchbox=\box57
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen177
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks25
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 90--91
-[]\OT1/ptm/m/n/10 Considering the topic uti-lizes a Red-dit dis-cus-sion
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 147.
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-]
-
-<figures/reddit_wordcloudfrequency.png, id=10, 570.933pt x 311.4837pt>
-File: figures/reddit_wordcloudfrequency.png Graphic file (type png)
-<use figures/reddit_wordcloudfrequency.png>
-Package pdftex.def Info: figures/reddit_wordcloudfrequency.png  used on input line 204.
-(pdftex.def)             Requested size: 252.0pt x 137.48576pt.
-<figures/rappler_wordcloudfrequency.png, id=12, 570.933pt x 311.4837pt>
-File: figures/rappler_wordcloudfrequency.png Graphic file (type png)
-<use figures/rappler_wordcloudfrequency.png>
-Package pdftex.def Info: figures/rappler_wordcloudfrequency.png  used on input line 211.
-(pdftex.def)             Requested size: 252.0pt x 137.48576pt.
-
-
-[2 <./figures/reddit_wordcloudfrequency.png> <./figures/rappler_wordcloudfrequency.png>]
-<figures/reddit_postfrequency.png, id=19, 1003.8303pt x 354.123pt>
-File: figures/reddit_postfrequency.png Graphic file (type png)
-<use figures/reddit_postfrequency.png>
-Package pdftex.def Info: figures/reddit_postfrequency.png  used on input line 231.
-(pdftex.def)             Requested size: 252.0pt x 88.89796pt.
-<figures/rappler_postfrequency.png, id=20, 1003.8303pt x 354.123pt>
-File: figures/rappler_postfrequency.png Graphic file (type png)
-<use figures/rappler_postfrequency.png>
-Package pdftex.def Info: figures/rappler_postfrequency.png  used on input line 238.
-(pdftex.def)             Requested size: 252.0pt x 88.89796pt.
-
-
-<figures/reddit_wordcloudBoW.png, id=21, 793.5246pt x 403.9893pt>
-File: figures/reddit_wordcloudBoW.png Graphic file (type png)
-<use figures/reddit_wordcloudBoW.png>
-Package pdftex.def Info: figures/reddit_wordcloudBoW.png  used on input line 280.
-(pdftex.def)             Requested size: 252.0pt x 128.29291pt.
-<figures/rappler_wordcloudBoW.png, id=22, 793.5246pt x 403.9893pt>
-File: figures/rappler_wordcloudBoW.png Graphic file (type png)
-<use figures/rappler_wordcloudBoW.png>
-Package pdftex.def Info: figures/rappler_wordcloudBoW.png  used on input line 287.
-(pdftex.def)             Requested size: 252.0pt x 128.29291pt.
-
-
-[3 <./figures/reddit_postfrequency.png> <./figures/rappler_postfrequency.png> <./figures/reddit_wordcloudBoW.png> <./figures/rappler_wordcloudBoW.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]\OT1/ptm/m/n/8 hectare, fi-nan-cial, liv-ing,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]\OT1/ptm/m/n/8 Farming op-er-a-tions, liveli-hood
- []
-
-
-Underfull \hbox (badness 4886) in paragraph at lines 312--312
-[]\OT1/ptm/m/n/8 Trade reg-u-la-tion, cus-toms pro-
- []
-
-<figures/reddit_topic_distribution.png, id=30, 578.16pt x 361.35pt>
-File: figures/reddit_topic_distribution.png Graphic file (type png)
-<use figures/reddit_topic_distribution.png>
-Package pdftex.def Info: figures/reddit_topic_distribution.png  used on input line 320.
-(pdftex.def)             Requested size: 252.0pt x 157.50026pt.
-
-Underfull \hbox (badness 1888) in paragraph at lines 333--333
-[]\OT1/ptm/m/n/8 price, rice, prices, sup-ply,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
-[]\OT1/ptm/m/n/8 agriculture, land, re-form,
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 336--336
-[]\OT1/ptm/m/n/8 agriculture, ir-ri-ga-tion, pro-
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 336--336
-[]\OT1/ptm/m/n/8 Government pro-grams, ir-ri-ga-tion
- []
-
-<figures/rappler_topic_distribution.png, id=31, 578.16pt x 361.35pt>
-File: figures/rappler_topic_distribution.png Graphic file (type png)
-<use figures/rappler_topic_distribution.png>
-Package pdftex.def Info: figures/rappler_topic_distribution.png  used on input line 344.
-(pdftex.def)             Requested size: 252.0pt x 157.50026pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--359
- \OT1/ptm/m/it/10 3) Sen-ti-ment Anal-y-sis: [][] \OT1/ptm/m/n/10 Sen-ti-ment anal-y-sis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--359
-\OT1/ptm/m/n/10 was con-ducted to ex-am-ine the un-der-ly-ing emo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--359
-\OT1/ptm/m/n/10 tional po-lar-ity present in both datasets. The
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 353--359
-\OT1/pcr/m/n/10 tabularisai/multilingual-sentiment-analysis
- []
-
-
-
-<figures/reddit_sentiment_per_topic.png, id=32, 463.2507pt x 338.2236pt>
-File: figures/reddit_sentiment_per_topic.png Graphic file (type png)
-<use figures/reddit_sentiment_per_topic.png>
-Package pdftex.def Info: figures/reddit_sentiment_per_topic.png  used on input line 397.
-(pdftex.def)             Requested size: 252.0pt x 183.99017pt.
-<figures/rappler_sentiment_per_topic.png, id=33, 463.2507pt x 338.2236pt>
-File: figures/rappler_sentiment_per_topic.png Graphic file (type png)
-<use figures/rappler_sentiment_per_topic.png>
-Package pdftex.def Info: figures/rappler_sentiment_per_topic.png  used on input line 404.
-(pdftex.def)             Requested size: 252.0pt x 183.99017pt.
-
-
-[4 <./figures/reddit_topic_distribution.png> <./figures/rappler_topic_distribution.png>]
-
-
-
-[5 <./figures/reddit_sentiment_per_topic.png> <./figures/rappler_sentiment_per_topic.png>]
-Underfull \hbox (badness 7308) in paragraph at lines 502--503
-[]\OT1/ptm/m/n/8 DA Press Of-fice, ``Fac-ing the Big Chal-lenges in Philip-pine
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
-\OT1/ptm/m/n/8 Agri-cul-ture,'' 2022. [On-line]. Avail-able: $https : / / www . da . gov . ph /
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 502--503
-\OT1/ptm/m/n/8 facing-[]the-[]big-[]challenges-[]in-[]philippine-[]agriculture/$. [Ac-cessed: Nov.
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 511--512
-\OT1/ptm/m/n/8 sentiment-analysis (Re-vi-sion 69afb83)," 2025. [On-line]. Avail-able:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-\OT1/ptm/m/n/8 https://huggingface.co/tabularisai/multilingual-sentiment-analysis. doi:
- []
-
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-
-
-
-
-[6
-
-] (./main.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
- ) 
-Here is how much of TeX's memory you used:
- 4383 strings out of 473200
- 69886 string characters out of 5720279
- 484308 words of memory out of 5000000
- 27590 multiletter control sequences out of 15000+600000
- 596909 words of font info for 106 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 57i,11n,65p,435b,342s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1578069 bytes).
-PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(/usr/local/texlive/2024/texmf-dist/t
