@@ -1,0 +1,231 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[margin=1in]{geometry}
+
+\title{CSCI 261.03 -- Complete Reviewer\\
+Neural Networks, LLMs, RAG, Bias, Ethics, SNA}
+\author{Compiled Notes}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Lesson 1: Neural Networks, RNNs, Transformers}
+
+\subsection*{Neural Units}
+A neural unit computes:
+\[
+z = w \cdot x + b, \qquad a = g(z).
+\]
+Weights $w$ determine influence of inputs; bias $b$ shifts the decision boundary.
+
+\subsection*{Perceptron}
+\[
+y =
+\begin{cases}
+0, & w \cdot x + b \le 0,\\[4pt]
+1, & w \cdot x + b > 0.
+\end{cases}
+\]
+Perceptrons are linear classifiers and cannot solve XOR.
+
+\subsection*{Feedforward Neural Networks}
+Layer computation:
+\[
+z^{(l)} = W^{(l)} a^{(l-1)} + b^{(l)}, \qquad
+a^{(l)} = g(z^{(l)}).
+\]
+
+\subsection*{Recurrent Neural Networks (RNNs)}
+\[
+h_t = g(Uh_{t-1} + Wx_t), \qquad y_t = f(Vh_t).
+\]
+RNN weights $(W,U,V)$ are shared across time.
+
+\subsection*{Limitations of RNNs}
+Vanishing gradients, exploding gradients, sequential computation, difficulty tracking long-range dependencies.
+
+\subsection*{Transformer Attention}
+Given queries $q_i$, keys $k_j$, values $v_j$:
+\[
+\text{score}(i,j)=\frac{q_i k_j^\top}{\sqrt{d_k}}, \qquad
+\text{Attention}(i)=\sum_j \mathrm{softmax(score(i,j))}\,v_j.
+\]
+
+\subsection*{Multi-Head Attention}
+Multiple heads compute independent contextual relations.
+
+\subsection*{Positional Embeddings}
+Transformers require positional encodings because they have no recurrence.
+
+\bigskip
+\hrule
+\bigskip
+
+\section*{Lesson 2: Pre-training and Post-training LLMs}
+
+\subsection*{LLM Architectures}
+\begin{itemize}
+    \item Decoder-only (GPT, Llama): autoregressive generation.
+    \item Encoder-only (BERT): masked language modeling.
+    \item Encoder-decoder (T5): seq2seq tasks such as translation.
+\end{itemize}
+
+\subsection*{Masked Language Modeling}
+15\% of tokens selected: 80\% replaced with [MASK], 10\% random, 10\% unchanged.
+
+\subsection*{Contextual Embeddings}
+Each word instance receives a context-dependent embedding.
+
+\subsection*{Prompting and In-Context Learning}
+Prompts activate internal patterns without modifying parameters.
+
+\subsection*{Sampling Methods}
+\begin{itemize}
+    \item Greedy decoding: always highest-probability token.
+    \item Random sampling: probabilistic sampling.
+    \item Temperature scaling:
+    \[
+    p_i = \mathrm{softmax}\left(\frac{u_i}{\tau}\right).
+    \]
+\end{itemize}
+
+\subsection*{Pretraining}
+Self-supervised training on large corpora such as C4, Wikipedia, Common Crawl.
+
+\subsection*{Post-training}
+\begin{itemize}
+    \item Instruction tuning.
+    \item Preference alignment (e.g., RLHF).
+    \item Test-time compute (chain-of-thought).
+\end{itemize}
+
+\bigskip
+\hrule
+\bigskip
+
+\section*{Lesson 3A: Retrieval-Augmented Generation (RAG) Using LangChain}
+
+\subsection*{Purpose of RAG}
+Ground LLM outputs using external authoritative documents.
+
+\subsection*{RAG Steps}
+\begin{enumerate}
+    \item Retrieve relevant documents.
+    \item Provide them to the LLM.
+    \item Generate grounded responses.
+\end{enumerate}
+
+\subsection*{LangChain Concepts}
+\begin{itemize}
+    \item Standard retriever interface via \texttt{.invoke()}.
+    \item Components: retrievers, vector stores, LLMs.
+    \item Observability through LangSmith.
+\end{itemize}
+
+\subsection*{RAG Prompting Template}
+Includes the question and retrieved context.
+
+\bigskip
+\hrule
+\bigskip
+
+\section*{Lesson 3B: Bias in Language Models}
+
+\subsection*{Types of Harm}
+\begin{itemize}
+    \item Representational harm (stereotypes).
+    \item Allocational harm (unequal opportunities).
+\end{itemize}
+
+\subsection*{Embedding Bias (WEAT)}
+Measures association strength between embedding groups.
+
+\subsection*{Masked LM Bias}
+Evaluate which tokens models select in masked positions.
+
+\subsection*{Generative LM Bias}
+Distribution-based, classifier-based, and lexicon-based metrics.
+
+\subsection*{Mitigation Categories}
+\begin{itemize}
+    \item Pre-processing.
+    \item In-training.
+    \item Intra-processing.
+    \item Post-processing.
+\end{itemize}
+
+\bigskip
+\hrule
+\bigskip
+
+\section*{Lesson 4A: Moral Compass in AI Language Modeling}
+
+\subsection*{The 3H Framework}
+\textbf{Helpful:} contextually useful.\\
+\textbf{Honest:} truthful, transparent.\\
+\textbf{Harmless:} avoids harmful content.
+
+\subsection*{Priority Ordering}
+Task-dependent and user-dependent scaling.
+
+\subsection*{Conscience Framework}
+\begin{enumerate}
+    \item Contextual object.
+    \item Values (anchor, scale).
+    \item Risk assessment.
+    \item Benchmarking.
+    \item Transparency and governance.
+\end{enumerate}
+
+\subsection*{SME-TEAM Pillars}
+Data, Algorithms, Human Oversight, Model Architecture.
+
+\bigskip
+\hrule
+\bigskip
+
+\section*{Lesson 4B: Social Network Analysis (SNA)}
+
+\subsection*{Graph Basics}
+A graph $G=(V,E)$ has node set $V$ and edge set $E$.
+
+\subsection*{Network Representations}
+Adjacency matrix, edge list, adjacency list.
+
+\subsection*{Global Metrics}
+\begin{itemize}
+    \item Density: 
+    \[
+    D = \frac{m}{n(n-1)}.
+    \]
+    \item Components.
+    \item Clustering coefficient.
+\end{itemize}
+
+\subsection*{Local Metrics}
+Degree, indegree/outdegree:
+\[
+k_i = \sum_j A_{ij}.
+\]
+Distance, shortest paths.
+
+\subsection*{Centrality Measures}
+Degree, betweenness, closeness, eigenvector.
+
+\subsection*{Network Models}
+\begin{itemize}
+    \item Erd\H{o}s-R\'enyi: random edges.
+    \item Barab\'asi-Albert: preferential attachment.
+    \item Watts-Strogatz: small-world structure.
+    \item Homophily: attribute similarity.
+\end{itemize}
+
+\subsection*{Temporal Networks}
+Edges evolve over time; measure progression of structure.
+
+\subsection*{LLM-based Network Simulation}
+Agents exchange messages; sentiment diffuses; network evolves.
+
+\end{document}
