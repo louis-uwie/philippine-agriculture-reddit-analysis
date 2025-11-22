@@ -144,7 +144,8 @@ by understanding if the news articles are addressing the concerns of the public,
 
 \subsection{Data Collection \& Preprocessing}
 
-\textbf{Reddit data} were collected from \texttt{r/Philippines}, while agriculture-related news articles were obtained from \textbf{Rappler}. 
+\textbf{Reddit data} were collected from \texttt{r/Philippines} filtered with `Agriculture' via PRAW, while agriculture-related news articles were obtained from \textbf{Rappler}, 
+specifically topics under `Department of Agriculture'. 
 The metadata gathered from both sources are summarized in their respective tables (\textit{see Table \ref{tab:redditdatasample} and Table \ref{tab:newsplatformsample}}). 
 Data cleaning procedures included: (i) removing null or missing values, (ii) removing special characters, (iii) normalizing text, and (iv) identifying and removing stopwords.
 
