@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  15 NOV 2025 08:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.7)  22 NOV 2025 09:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -313,120 +313,121 @@ Package pdftex.def Info: figures/rappler_wordcloudfrequency.png  used on input l
 <figures/reddit_postfrequency.png, id=19, 1003.8303pt x 354.123pt>
 File: figures/reddit_postfrequency.png Graphic file (type png)
 <use figures/reddit_postfrequency.png>
-Package pdftex.def Info: figures/reddit_postfrequency.png  used on input line 231.
+Package pdftex.def Info: figures/reddit_postfrequency.png  used on input line 233.
 (pdftex.def)             Requested size: 252.0pt x 88.89796pt.
 <figures/rappler_postfrequency.png, id=20, 1003.8303pt x 354.123pt>
 File: figures/rappler_postfrequency.png Graphic file (type png)
 <use figures/rappler_postfrequency.png>
-Package pdftex.def Info: figures/rappler_postfrequency.png  used on input line 238.
+Package pdftex.def Info: figures/rappler_postfrequency.png  used on input line 240.
 (pdftex.def)             Requested size: 252.0pt x 88.89796pt.
 <figures/reddit_wordcloudBoW.png, id=21, 793.5246pt x 403.9893pt>
 File: figures/reddit_wordcloudBoW.png Graphic file (type png)
 <use figures/reddit_wordcloudBoW.png>
-Package pdftex.def Info: figures/reddit_wordcloudBoW.png  used on input line 280.
+Package pdftex.def Info: figures/reddit_wordcloudBoW.png  used on input line 284.
 (pdftex.def)             Requested size: 252.0pt x 128.29291pt.
 <figures/rappler_wordcloudBoW.png, id=22, 793.5246pt x 403.9893pt>
 File: figures/rappler_wordcloudBoW.png Graphic file (type png)
 <use figures/rappler_wordcloudBoW.png>
-Package pdftex.def Info: figures/rappler_wordcloudBoW.png  used on input line 287.
+Package pdftex.def Info: figures/rappler_wordcloudBoW.png  used on input line 291.
 (pdftex.def)             Requested size: 252.0pt x 128.29291pt.
- [3 <./figures/reddit_postfrequency.png> <./figures/rappler_postfrequency.png> <./figures/reddit_wordcloudBoW.png> <./figures/rappler_wordcloudBoW.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []\OT1/ptm/m/n/8 hectare, fi-nan-cial, liv-ing,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []\OT1/ptm/m/n/8 Farming op-er-a-tions, liveli-hood
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 312--312
+Underfull \hbox (badness 4886) in paragraph at lines 316--316
 []\OT1/ptm/m/n/8 Trade reg-u-la-tion, cus-toms pro-
  []
 
-<figures/reddit_topic_distribution.png, id=30, 578.16pt x 361.35pt>
+[3 <./figures/reddit_postfrequency.png> <./figures/rappler_postfrequency.png> <./figures/reddit_wordcloudBoW.png>]
+<figures/reddit_topic_distribution.png, id=29, 578.16pt x 361.35pt>
 File: figures/reddit_topic_distribution.png Graphic file (type png)
 <use figures/reddit_topic_distribution.png>
-Package pdftex.def Info: figures/reddit_topic_distribution.png  used on input line 320.
+Package pdftex.def Info: figures/reddit_topic_distribution.png  used on input line 324.
 (pdftex.def)             Requested size: 252.0pt x 157.50026pt.
 
-Underfull \hbox (badness 1888) in paragraph at lines 333--333
+Underfull \hbox (badness 1888) in paragraph at lines 337--337
 []\OT1/ptm/m/n/8 price, rice, prices, sup-ply,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []\OT1/ptm/m/n/8 agriculture, land, re-form,
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 336--336
+Underfull \hbox (badness 2050) in paragraph at lines 340--340
 []\OT1/ptm/m/n/8 agriculture, ir-ri-ga-tion, pro-
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 336--336
+Underfull \hbox (badness 1990) in paragraph at lines 340--340
 []\OT1/ptm/m/n/8 Government pro-grams, ir-ri-ga-tion
  []
 
-<figures/rappler_topic_distribution.png, id=31, 578.16pt x 361.35pt>
+<figures/rappler_topic_distribution.png, id=30, 578.16pt x 361.35pt>
 File: figures/rappler_topic_distribution.png Graphic file (type png)
 <use figures/rappler_topic_distribution.png>
-Package pdftex.def Info: figures/rappler_topic_distribution.png  used on input line 344.
+Package pdftex.def Info: figures/rappler_topic_distribution.png  used on input line 348.
 (pdftex.def)             Requested size: 252.0pt x 157.50026pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--359
+Underfull \hbox (badness 10000) in paragraph at lines 359--365
  \OT1/ptm/m/it/10 3) Sen-ti-ment Anal-y-sis: [][] \OT1/ptm/m/n/10 Sen-ti-ment anal-y-sis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--359
+Underfull \hbox (badness 10000) in paragraph at lines 359--365
 \OT1/ptm/m/n/10 was con-ducted to ex-am-ine the un-der-ly-ing emo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--359
+Underfull \hbox (badness 10000) in paragraph at lines 359--365
 \OT1/ptm/m/n/10 tional po-lar-ity present in both datasets. The
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 353--359
+Overfull \hbox (6.0pt too wide) in paragraph at lines 359--365
 \OT1/pcr/m/n/10 tabularisai/multilingual-sentiment-analysis
  []
 
-<figures/reddit_sentiment_per_topic.png, id=32, 463.2507pt x 338.2236pt>
+<figures/reddit_sentiment_per_topic.png, id=31, 463.2507pt x 338.2236pt>
 File: figures/reddit_sentiment_per_topic.png Graphic file (type png)
 <use figures/reddit_sentiment_per_topic.png>
-Package pdftex.def Info: figures/reddit_sentiment_per_topic.png  used on input line 397.
+Package pdftex.def Info: figures/reddit_sentiment_per_topic.png  used on input line 403.
 (pdftex.def)             Requested size: 252.0pt x 183.99017pt.
-<figures/rappler_sentiment_per_topic.png, id=33, 463.2507pt x 338.2236pt>
+<figures/rappler_sentiment_per_topic.png, id=32, 463.2507pt x 338.2236pt>
 File: figures/rappler_sentiment_per_topic.png Graphic file (type png)
 <use figures/rappler_sentiment_per_topic.png>
-Package pdftex.def Info: figures/rappler_sentiment_per_topic.png  used on input line 404.
+Package pdftex.def Info: figures/rappler_sentiment_per_topic.png  used on input line 410.
 (pdftex.def)             Requested size: 252.0pt x 183.99017pt.
-[4 <./figures/reddit_topic_distribution.png> <./figures/rappler_topic_distribution.png>] [5 <./figures/reddit_sentiment_per_topic.png> <./figures/rappler_sentiment_per_topic.png>]
-Underfull \hbox (badness 7308) in paragraph at lines 502--503
+[4 <./figures/rappler_wordcloudBoW.png> <./figures/reddit_topic_distribution.png> <./figures/rappler_topic_distribution.png>] [5 <./figures/reddit_sentiment_per_topic.png> <./figures/rappler_sentiment_per_topic.png>]
+Underfull \hbox (badness 7308) in paragraph at lines 519--520
 []\OT1/ptm/m/n/8 DA Press Of-fice, ``Fac-ing the Big Chal-lenges in Philip-pine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 \OT1/ptm/m/n/8 Agri-cul-ture,'' 2022. [On-line]. Avail-able: $https : / / www . da . gov . ph /
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 502--503
+Underfull \hbox (badness 3199) in paragraph at lines 519--520
 \OT1/ptm/m/n/8 facing-[]the-[]big-[]challenges-[]in-[]philippine-[]agriculture/$. [Ac-cessed: Nov.
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 511--512
+Underfull \hbox (badness 1789) in paragraph at lines 528--529
 \OT1/ptm/m/n/8 sentiment-analysis (Re-vi-sion 69afb83)," 2025. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 \OT1/ptm/m/n/8 https://huggingface.co/tabularisai/multilingual-sentiment-analysis. doi:
  []
 
@@ -441,9 +442,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6
-
-] (./main.aux)
+[6] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -452,13 +451,13 @@ L3 programming layer <2024-02-20>
 Here is how much of TeX's memory you used:
  4376 strings out of 474116
  70495 string characters out of 5743683
- 1951187 words of memory out of 5000000
+ 1949187 words of memory out of 5000000
  26691 multiletter control sequences out of 15000+600000
  596141 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,458b,342s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,513b,342s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1578370 bytes).
+Output written on main.pdf (6 pages, 1580930 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

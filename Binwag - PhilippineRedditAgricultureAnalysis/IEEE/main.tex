@@ -197,7 +197,7 @@ However, the Reddit word cloud (Fig.~\ref{fig:reddit_wordcloud}) also contains n
 
 In contrast, the Rappler word cloud (Fig.~\ref{fig:rappler_wordcloud}) places stronger emphasis on rice-related issues. 
 This aligns with reports from the Department of Agriculture acknowledging declining rice production due to several factors. 
-Frequent mentions of terms such as ``per kilo,'' ``rice price,'' and ``import'' further highlight recurring concerns over agricultural commodity pricing—consistent with well-known challenges in the Philippine agricultural sector.
+Frequent mentions of terms such as ``per kilo,'' ``rice price,'' and ``import'' further highlight recurring concerns over agricultural commodity pricing, consistent with well-known challenges in the Philippine agricultural sector.
 
 \begin{figure}[htbp]
     \centering
@@ -222,9 +222,11 @@ Understanding the distribution of posts across time provides context for identif
 
 For Reddit, post activity increases notably after 2019, which may be associated with the implementation of the Rice Tariffication Law (RTL) in the same year \cite{a3}. 
 Following the passage of RTL, farmers faced increased pressure as rice prices continued to decline, contributing to intensified discussions surrounding agricultural challenges.
+Additionally, spikes in post frequency can be correlated to significant urbanization of rural areas where internet and technology may be more accessible in recent years, 
+however this may need further investigation out of the scope of this study. For the context of this study, the purpose of this temporal representation is to identify periods of increased public discourse on agriculture.
 
 For Rappler, article publications appear sparser due to the relatively small dataset (approximately 120 articles). 
-It is possible that a more comprehensive sample—potentially collected from multiple news outlets—would show clearer temporal patterns in agricultural reporting.
+It is possible that a more comprehensive sample, potentially collected from multiple news outlets, would show clearer temporal patterns in agricultural reporting.
 
 \begin{figure}[htbp]
     \centering
@@ -272,7 +274,9 @@ Additionally, the results of the Reddit BoW (Fig.~\ref{fig:reddit_BoW}) and Rapp
 further reinforce that discussions on agriculture consistently revolve around key themes such as \textit{government, policies, prices, undervalued, 
 the Department of Agriculture (DA), and food}. 
 Even with a more semantically filtered and less noisy representation, the dominant terms remain strongly aligned, indicating that both public discourse 
-and news reporting emphasize similar core issues within the agricultural sector.
+and news reporting emphasize similar core issues within the agricultural sector. 
+Additionally, the BoW word clouds [Fig.~\ref{fig:rappler_BoW}, Fig.~\ref{fig:reddit_BoW}](\textit{i.e., agriculture, undervalued, department, clearance etc.})highlights finer or more specific 
+terms compared to the EDA word clouds [Fig.~\ref{fig:rappler_wordcloud}, Fig.~\ref{fig:reddit_wordcloud}](\textit{rice, said, will, philippine, farmer, etc.}) which contained more noisy and general terms when it comes to agricultural concerns.
 
 
 \begin{figure}[htbp]
@@ -350,12 +354,14 @@ Tables~\ref{tab:reddit_LDA} and~\ref{tab:rappler_LDA} present the top five repre
 
 \subsubsection{Sentiment Analysis}
 
-Sentiment analysis was conducted to examine the underlying emotional polarity present in both 
-datasets. The \texttt{tabularisai/multilingual-sentiment-analysis} model~\cite{a4}, a 
+\sloppy
+
+Sentiment analysis was conducted to examine the underlying emotional 
+polarity present in both datasets. The \texttt{tabularisai/multilingual-sentiment-analysis} model~\cite{a4}, a 
 BERT-based multilingual classifier capable of handling both English and Filipino text, 
 was employed to evaluate each Reddit post and Rappler article. This model assigns one of 
-five sentiment categories—\textit{Very Negative}, \textit{Negative}, \textit{Neutral}, 
-\textit{Positive}, and \textit{Very Positive}—along with a confidence score (\textit{Default lables by tabularisai}).
+five sentiment categories: \textit{Very Negative}, \textit{Negative}, \textit{Neutral}, 
+\textit{Positive}, and \textit{Very Positive}, along with a confidence score (\textit{Default lables by tabularisai}).
 
 Tables~\ref{tab:reddit_sentiment} and \ref{tab:rappler_sentiment} summarize the distribution 
 of sentiment categories for each dataset. Reddit displays a wider spread of sentiments, with 
@@ -405,9 +411,6 @@ Very Positive & 2 \\ \hline
     \caption{Rappler Topic-Sentiment Heatmap Distribution}
     \label{fig:rappler_sentiment_topic}
 \end{figure}
-
-
-
 
 
 \section{Results \& Discussion}
@@ -468,14 +471,28 @@ sector~\cite{a1}.
 
 This study demonstrates the alignment between public discourse on Reddit and journalistic 
 coverage from Rappler regarding agricultural issues in the Philippines. The recurring topics 
-identified across both datasets—such as pricing, importation, production challenges, and 
-farmer livelihood—reflect widely acknowledged national concerns. Although negative sentiment 
+identified across both datasets such as pricing, importation, production challenges, and 
+farmer livelihood, reflect widely acknowledged national concerns. Although negative sentiment 
 was less prominent than expected, this may be attributed to the nature of the collected 
 Reddit data, which focused only on \texttt{post\_title} and \texttt{post\_body}, both of 
 which tend to contain more informational rather than emotionally charged content. The 
 absence of \texttt{post\_comment} data may have limited the detection of stronger opinions 
 or polarized expressions from users.
 
+Based on the findings of the study, it is evident that both public discussions and news reporting have some discrepancies.
+While most topics are aligned, there are still some topics that are not as covered in news articles such as animal diseases, irrigation, and economical pressures of farmers.
+This may be due to the fact that news articles tend to focus on more formal and structured topics, especially concerned with government policies presented by the Department of Agriculture.
+
+This study highlights the importance of understanding public sentiment and discourse surrounding agriculture in the Philippines.
+By analyzing both Reddit discussions and Rappler articles, we gain insights into the challenges faced by farmers and the broader agricultural sector.
+These insights can inform policymakers, stakeholders, and the public about the pressing issues that need to be addressed to support and improve the agricultural landscape in the country.
+
+Additionally, the study acknowledges the fact that the data collected and analyzed may not fully represent the entire spectrum of farmers' needs and concerns. This is because
+the data is limited to online discussions, where authors may or may not necessarily be farmers themselves. Other concerns such as geographical scenario (are these actual farmers? researchers? agricultural enthusiasts?).
+Language barrier may also be present in the study considering Reddit data may include tagalog (or other dialects) that may not necessarily be captured by the models used in the study.
+
+It is recommended that further research on the topic be conducted with a more domain-rich dataset, considering the low-resource nature of the topic 
+(Abundant resources on government policies, but limited resources on farmers' needs and concerns).
 
 % \section{Possible Future Works}
 % Possible future work is to incorporate a more domain rich data. This may include but not limited to: 
@@ -489,19 +506,19 @@ or polarized expressions from users.
 
 Future research may build upon this study by incorporating more domain-rich and diverse datasets to deepen the analysis. Potential directions include:
 \begin{enumerate}
-    \item Expanding to larger and more varied social media platforms, such as Facebook or X.
-    \item Integrating institutional documents and reports from agricultural agencies such as the Department of Agriculture (DA), Department of Agrarian Reform (DAR), and PhilRice.
-    \item Including transcribed interviews, field reports, or documentary datasets to obtain firsthand, domain-specific insights directly from farmers.
+    \item Expanding to larger and more varied social media platforms, such as Facebook or X. Additionally, data directly from interviews or farmer testimonials or farmer cooperatives could provide richer, firsthand perspectives. This is to ensure that the analysis captures a broader spectrum of public discourse and farmer experiences.
+    \item Integrating institutional documents and reports from agricultural agencies such as the Department of Agriculture (DA), Department of Agrarian Reform (DAR), and PhilRice. Similar to the News articles, these can provide relevant documents to compare and ground the public discourse analysis with facts. (\textit{Similar to Retrival-Augmented Generation (RAG) approach})
+    \item Implement more advanced NLP techniques, such as transformer-based models to encode-decode agricultural text data, and predict through generative AI such as Ollama/Sea-lion/GPT models possible solutions to the challenges faced by the agricultural sector, based on the knowledge base.
 \end{enumerate}
 
 \sloppy
 
 \newpage \begin{thebibliography}{00}
 
-\bibitem{a1} 
+\bibitem{a1} % DA Acknowledgement of Agricultural Challenges
 DA Press Office, ``Facing the Big Challenges in Philippine Agriculture,'' 2022. [Online]. Available: \url{https://www.da.gov.ph/facing-the-big-challenges-in-philippine-agriculture/}. [Accessed: Nov. 9, 2025].
 
-\bibitem{a2} 
+\bibitem{a2} % Coverage on Rice Self-Sufficiency
 GMA News, ``Bakit Hindi Rice Self-Sufficient Ang Pilipinas? | Need to Know,'' 2021. [Online]. Available: \url{https://www.youtube.com/watch?v=nh3vLr9DG1g}. [Accessed: Oct. 20, 2025].
 
 \bibitem{a3} 
